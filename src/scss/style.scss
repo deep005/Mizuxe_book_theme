@@ -53,3 +53,27 @@ body{
   }
 
 }
+
+#authors{
+  img{
+    margin-top: -50px;
+  }
+
+  .fa{
+    font-size:25px;
+  }
+  .card:hover{
+    background:$primary;
+    color:#fff;
+
+    .text-muted{
+      color: #444 !important;
+    }
+    .fa{
+      color: #fff;
+    }
+    .fa:hover{
+      color:#444 !important;
+    }
+  }
+}
