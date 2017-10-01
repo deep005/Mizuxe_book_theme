@@ -53,3 +53,13 @@ body {
     color: #fff; }
   #authors .card:hover .fa:hover {
     color: #444 !important; }
+
+@media (max-width: 767px) {
+  .boxCard {
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px #888; }
+  .authorCard {
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 2px #888; }
+  .mainText {
+    font-size: 4rem !important; } }
